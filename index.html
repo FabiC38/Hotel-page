@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Golden Hotel</title>
+    <link rel="stylesheet" href="style.css">
+    <link href='https://unpkg.com/boxicons@2.1.2/css/boxicons.min.css' rel='stylesheet'>
+</head>
+<body>
+    <header class="encabezado">
+        <nav>
+            <div>
+                <img src="./Icons/Hotel (2).png" alt="logo-hotel" class="logito">
+                <h1 class="contenedor-info">GOLDEL HOTEL: CONFORT Y ELEGANCIA</h1>
+                <p>A metros del centro de la ciudad de Buenos Aires</p>
+            </div>
+            <label for="menu-toggle">
+                <div class="menu-button">
+                    <i class='bx bx-menu'></i>
+                </div>
+            </label>
+
+            <input type="checkbox" id="menu-toggle" class="menu-toggle">
+            <ul class="toggle">
+                <li><a href="">El Hotel</a></li>
+                <li><a href="">Habitaciones</a></li>
+                <li><a href="">Servicios</a></li>
+                <li><a href="">Restaurante</a></li>
+                <li><a href="">Eventos</a></li>
+                <li><a href="">Contacto</a></li>
+                <button name="button">Reservas<i class='bx bxs-calendar'></i></button>
+            </ul>
+           
+        </nav>
+    </header>
+    
+    <main>
+    
+        <article class="seccion-zonas">
+            <img class="perfil" src="./Icons/HotelPerfil.png" alt="HotelPerfil">
+            <div class="contenedor-about">
+                <hr><h2>Sobre nosotros</h2>
+                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. 
+                    Autem ab porro nihil rem repellat et, totam, ullam voluptas tenetur hic adipisci excepturi cumque eaque, 
+                    aut blanditiis distinctio modi dolor ad. Lorem ipsum dolor sit amet consectetur adipisicing elit. Hic laudantium voluptates iure temporibus fuga voluptatum, fugit itaque accusamus similique in eaque quos explicabo qui voluptas, aliquam asperiores! Minima, veniam corrupti!
+                </p>
+                <h3>Servicios:</h3>
+                <i class='bx bxs-coffee'>Desayuno</i>
+                <i class='bx bx-swim'>Piscina</i>
+                <i class='bx bxs-drink'>Bar</i>
+                <i class='bx bx-restaurant'>Restaurante</i>
+                <i class='bx bxs-spa'>Spa</i>
+                <i class='bx bx-wifi'>WiFi</i>
+                <i class='bx bx-dumbbell' >Gimnasio</i>
+                <i class='bx bxs-car-garage'>Estacionamiento</i>
+                <i class='bx bxs-cctv'>Seguridad 24 horas</i>
+            </div>
+        </article>
+        <hr class="linea"><article class="seccion-2">
+            
+            <h2 class="titulo-2">Goldel Hotel</h2>
+            
+            <section class="seccion-fotos">
+                <div class="bordes">
+                    <img class="fotos" src="./Icons/Hotel interior.jpg" alt="interior">
+                    <h4>El Hotel</h4>
+                    <button>Ver</button>
+
+                </div>
+                <div class="bordes">
+                    <img class="fotos" src="./Icons/Hab.jpg" alt="Hab">
+                    <h4>Habitaciones</h4>
+                    <button>Ver</button>
+
+                </div>
+                <div class="bordes">
+                    <img class="fotos" src="./Icons/Resto.jpg" alt="Resto">
+                    <h4>Restaurante</h4>
+                    <button>Ver</button>
+
+                </div>
+            </section>
+        </article>
+        <section class="seccion-3">
+        <div class="posicion-1">
+            <div class="promo">
+                <p>PROMOCIONES</p>
+            </div>
+            <div class="back-1">
+                <button>Conoce nuestra promoción</button>
+            </div>
+        </div>
+        <div class="posicion-2">    
+            <div class="eventos">
+                <p>EVENTOS</p>
+            </div>
+            <div class="back-2">
+                <p>LOS SALONES MÁS EQUIPADOS PARA REUNIONES Y EVENTOS</p>
+                <button>Ver</button>
+            </div>
+        </div>          
+        
+            <form action="">
+                <h2>CONTACTO</h2>
+                <div>
+                    <label for="name">Nombre</label>
+                    <input type="text" id="name" name="Nombre">
+                </div>
+                <div>
+                    <label for="mail">Correo Electrónico</label>
+                    <input type="email" name="mail" id="mail">
+                </div>
+                <div>
+                    <label for="asunto">Asunto</label>
+                    <input type="text" id="asunto" name="Asunto" >
+
+                </div>
+                <div>
+                    <label for="msg">Mensaje</label>
+                    <textarea id="msg" name="user_message"></textarea>
+                </div>
+                <div>
+                    <input class="btm-enviar" type="submit">
+                </div>
+        
+            </form>
+        
+        </section>
+    </main>
+    <footer>
+        <div> 
+            <p>+54112530800</p>
+            <p>reservasGH@goldenhotel.com.ar</p>
+            <p class="direccion">Carlos Pellegrini 911, CP 1009, CABA</p>
+        </div>
+        <div> 
+            <p>SEGUINOS EN</p>
+            <div class="redes-sociales">
+                <a href=""><i class='bx bxl-instagram'></i></a>
+                <a href=""><i class='bx bxl-twitter' ></i></a>
+                <a href=""><i class='bx bxl-facebook' ></i></a>
+                <a href=""><i class='bx bxl-trip-advisor' ></i></a>
+            </div>
+        </div>
+        <div >
+            <button class="boton-footer"><i class='bx bx-map'></i>¿cómo llegar?</button>
+        </div>
+        <div >
+            <img class="logo-footer" src="./Icons/Hotel (2).png" alt="Logo-footer">
+        </div>
+
+    </footer>
+</body>
+</html>
